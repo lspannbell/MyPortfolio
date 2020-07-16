@@ -4,58 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/all.css">
     <title>Portfolio</title>
 </head>
-<body>
+<body class="projects">
     <header>
-  <div class="collapse bg-dark" id="navbarHeader">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 col-md-7 py-4">
-          <h4 class="text-white">About</h4>
-          <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-        </div>
-        <div class="col-sm-4 offset-md-1 py-4">
-          <h4 class="text-white">Contact</h4>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Follow on Twitter</a></li>
-            <li><a href="#" class="text-white">Like on Facebook</a></li>
-            <li><a href="#" class="text-white">Email me</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container d-flex justify-content-between">
-      <a href="#" class="navbar-brand d-flex align-items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-        <strong>Album</strong>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </div>
+      <nav class="nav">
+        <ul class="nav-btns">
+          <li><a href="aboutMe.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html"> Contact</a></li>
+        </ul>
+    </nav>
 </header>
 
 <main role="main">
-
-  <section class="jumbotron text-center">
-    <div class="container">
-      <h1>Lenise Spann-Bell</h1>
-      <p class="lead text-muted">My Portfolio</p>
-      <img src="https://ca.slack-edge.com/T5VCY49B3-UTUVDCYKX-9135ae2a202b-512" style="max-height:300px">
+  <section>
+    <div class="hero-txt">
+      <h1>Projects</h1>
+      <p>Take a Look at My Portfolio</p>
     </div>
   </section>
+  <!-- <div class="album py-5 bg-light"> -->
 
-  <div class="album py-5 bg-light">
     <div class="container">
-
       <div class="row">
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-              <img src="img/Gateway_InitialPic.png" alt="gateway app" style="max-height:300px">
+              <img src="./css/img/Gateway_InitialPic.png" alt="gateway app" style="max-height:300px">
             <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
             <div class="card-body">
               <p class="card-text">Original Gateway App</p>
@@ -72,7 +50,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/RevisedGatewayPic.png" alt="gateway app" style="max-height:300px">
+            <img src="./css/img/RevisedGatewayPic.png" alt="gateway app" style="max-height:300px">
             <div class="card-body">
               <p class="card-text">Revised Gateway App</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -87,7 +65,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/HotelAppPic.png" alt="hotel" app" style="max-height:300px">
+            <img src="./css/img/HotelAppPic.png" alt="hotel" app" style="max-height:300px">
             <div class="card-body">
               <p class="card-text">Hotel App</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -106,7 +84,7 @@
 
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/GuessingAppPic.png" alt="guessing game app" style="max-height:300px">
+            <img src="./css/img/GuessingAppPic.png" alt="guessing game app" style="max-height:300px">
             <div class="card-body">
               <p class="card-text">Speech Recognition App</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -124,7 +102,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/NavbarPic.png" alt="navbar" style="max-height:300px">
+            <img src="./css/img/NavbarPic.png" alt="navbar" style="max-height:300px">
             <div class="card-body">
               <p class="card-text">Animated Nav Bar</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -143,7 +121,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/PokemonPic.png" alt="pokemon app" style="max-height:300px">
+            <img src="./css/img/PokemonPic.png" alt="pokemon app" style="max-height:300px">
             <div class="card-body">
               <p class="card-text">Pokemon Inquirer App</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -159,7 +137,7 @@
 
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/WeatherAppPic.png" alt="weather app" style="max-height:300px">
+            <img src="./css/img/WeatherAppPic.png" alt="weather app" style="max-height:300px">
             <div class="card-body">
               <p class="card-text">Weather App</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -174,7 +152,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/GithubCardPhoto.png" alt="github page locator app" style="max-height:300px">
+            <img src="./css/img/GithubCardPhoto.png" alt="github page locator app" style="max-height:300px">
             <div class="card-body">
               <p class="card-text">Github Page Locator App</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -191,7 +169,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/NoteTakingAppPic.png" alt="note taking app" style="max-height:300px">
+            <img src="./css/img/NoteTakingAppPic.png" alt="note taking app" style="max-height:300px">
             <div class="card-body">
               <p class="card-text">React To-Do List App</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -208,7 +186,7 @@
         </div>
               <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/TictactoePic.png" alt="tic-tac-toe app" style="max-height:300px">
+            <img src="./css/img/TictactoePic.png" alt="tic-tac-toe app" style="max-height:300px">
             <div class="card-body">
               <p class="card-text">React Tic-Tac-Toe App</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -234,6 +212,10 @@
     <p class="float-right">
       <a href="#">Back to top</a>
     </p>
+    <div class="links">
+      <a href="https://www.linkedin.com/in/lenise-spann-bell/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/lspannbell"><i class="fab fa-github-square"></i></a>
+  </div>
   </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
