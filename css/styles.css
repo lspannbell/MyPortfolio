@@ -121,12 +121,13 @@ h1, h2, h3, p {
 
 .contact-img{
     border-radius: 50%;
-    /* float: right; */
+    position: absolute;
+    float: right;
     max-width: 300px;
     max-height: 300px;
-    float: right;
-    margin-right: 15%;
-    margin-top: 100px;
+    margin-top: 25%;
+    margin-left: 60%;
+   
 }
 .cont-footer{
     position: absolute;
