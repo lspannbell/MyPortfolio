@@ -17,11 +17,14 @@
     
 }
 .contact{
-    background-image: url("./img/Bg/contactBg.jpg");
+    background-image: url("./img/Bg/contactBg1.jpg");
     background-size: cover;
 
 
 }
+
+/*Nav Bar*/
+
 li a{
     text-decoration: none;
     font-family: 'Dosis', sans-serif;
@@ -47,7 +50,7 @@ li a{
     text-align: center; 
     margin: 35px 17%;
     padding: 40px;
-    -webkit-animation: fadein 4s;
+    -webkit-animation: fadein 3s;
 }
 @keyframes fadein {
   from { opacity: 0; }
@@ -58,7 +61,7 @@ li a{
 .name {
       font-size: 50px;
     position: relative;
-    -webkit-animation: fadein 5s;
+    -webkit-animation: fadein 3s;
   }
   @keyframes fadein {
     from { opacity: 0; }
@@ -97,14 +100,17 @@ li a{
 
 
 /*Contact*/
-h1, h2, p {
+h1, h2, h3, p {
     font-family: 'Dosis', sans-serif; 
-    color: white;
+    color: black;
 }
-.contact-me{
+.contact-me {
     text-align: center;
    float: left;
    padding-left: 20%;
+   margin-top: 100px;
+   margin-bottom: 170px;
+   margin-left: 70px;
     
 }
 .contact-img{
@@ -114,6 +120,7 @@ h1, h2, p {
     max-height: 300px;
     float: right;
     margin-right: 15%;
+    margin-top: 100px;
 }
 
  /*Footer*/
