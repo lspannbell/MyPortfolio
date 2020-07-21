@@ -116,12 +116,12 @@ h1, h2, h3, p {
 }
 .contact-me {
     text-align: center;
-   float: left;
-   padding-left: 20%;
-   margin-top: 100px;
-   margin-bottom: 170px;
-   margin-left: 70px;
-   -webkit-animation: fadein 3s;
+    float: left;
+    padding-left: 20%;
+    margin-top: 100px;
+    margin-bottom: 170px;
+    margin-left: 70px;
+    -webkit-animation: fadein 3s;
 }
 @keyframes fadein {
   from { opacity: 0; }
@@ -155,6 +155,8 @@ h1, h2, h3, p {
 }
 a{
     text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    color: black;
 }
  /*Footer*/
  footer{
